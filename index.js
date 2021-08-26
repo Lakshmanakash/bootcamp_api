@@ -7,7 +7,7 @@ const userModel = require("./user");
 const app = express();
 //configuration
 app.use(express.json());
-//route:  /
+//route:  / hello im testing my code
 //description:   To get all  user
 // parameter: none 
 app.get("/",async(req ,res) =>{
