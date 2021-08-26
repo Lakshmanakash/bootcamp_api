@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 //route:  /
 //description:   To get all  user
-// parameter: none hi
+// parameter: none 
 app.get("/",async(req ,res) =>{
     try{
         const user = await userModel.find();
